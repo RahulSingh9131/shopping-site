@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rahul | Shopping | Site</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><i class="fas fa-ghost"></i>Shopping</a>
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#products">products</a>
+            <a href="#about">about</a>
+            <a href="#arrivals">arrivals</a>
+            <a href="#contact">contact</a>
+        </nav>
+        <div class="icons">
+            <div id="menu-btn" class="fas fa-bars"></div>
+           <div id="search-btn" class="fas fa-search"></div>
+           <a href="#" class="fas fa-shopping-cart"></a>
+           <a href="#" id="login-btn" class="fas fa-user"></a>
+        </div>
+        <form action="" class="search-bar-container">
+            <input type="search" placeholder="search here.." id="search-bar">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+    </header>
+    <!--login form-->
+    <div class="login-form-container">
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="enter your email.."/>
+            <input type="password" class="box" placeholder="enter password here.."/>
+            <input type="submit" class="btn" value="login now"/>
+            <input type="checkbox" id="remember-me"/>
+            <label for="remember-me">remember me</label>
+            <p>forgot password?<a href="#">click here</a></p>
+            <p>dont have an account? <a href="#">register here</a></p>
+        </form>
+    </div>
+    <!--section for home -->
+
+    <section class="home" id="home">
+        <div class="content">
+            <h2>Checkout some amazing products</h2>
+            <p>upto <span>30%</span> off*</p>
+            <h3>order now</h3>
+            <a href="#" class="btn">shop now</a>
+        </div>
+        <div class="controls">
+            <span class="img-btn active" data-src="images src/laptop.jpg"></span>
+            <span class="img-btn" data-src="images src/mobile.jpg"></span>
+            <span class="img-btn" data-src="images src/shoe.jpg"></span>
+            <span class="img-btn" data-src="images src/glasses.jpg"></span>
+            <span class="img-btn" data-src="images src/coffee.jpg"></span>
+        </div>
+        <div class="image-container">
+            <img src="images src/laptop.jpg" id="image-slider" alt="">
+        </div>
+    </section>
+    <!--section for products-->
+    <section class="products" id="products">
+        <h1 class="heading">explore the <span>store</span></h1>
+        <div class="product-slider">
+            <div class="wrapper">
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images src/product-1.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>newly launched cameras</h3>
+                        <div class="price">$200 <span>$300</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images src/product-2.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>newly launched sneakers</h3>
+                        <div class="price">$100 <span>$150</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images src/product-3.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>newly launched laptop</h3>
+                        <div class="price">$1000 <span>$1139</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images src/product-4.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>newly launched earbuds</h3>
+                        <div class="price">$80 <span>$100</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images src/product-5.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>wide range of footwear</h3>
+                        <div class="price">$100 <span>$110</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images src/product-6.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>newly launched speakers</h3>
+                        <div class="price">$130 <span>$150</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images src/product-7.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>newly launched consoles</h3>
+                        <div class="price">$100 <span>$130</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images src/product-8.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>newly launched iphone</h3>
+                        <div class="price">$559 <span>$779</span></div>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="icons">
+                        <a href="#" class="fas fa-shopping-cart"></a>
+                        <a href="#" class="fas fa-eye"></a>
+                        <a href="#" class="fas fa-share"></a>
+                    </div>
+                    <div class="image">
+                        <img src="images src/product-9.jpg" alt="">
+                    </div>
+                    <div class="content">
+                        <h3>newly launched products</h3>
+                        <div class="price">$39 <span>$50</span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section for About-->
+    <section class="about" id="about">
+        <div class="content">
+            <h3>about this website</h3>
+            <p>hello welcome to the online shopping store. this website showcase some different varieties of products available at affordable prices. currently i have only done the frontend part of this website. i made this using HTML, CSS & JAVASCRIPT.</p>
+            <a href="#" class="btn">read more</a>
+        </div>
+    </section>
+    <!--section for arrivals-->
+    <section class="arrivals" id="arrivals">
+        <h1 class="heading">new <span>arrivals</span></h1>
+        <div class="swiper arrivals-slider">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide box" style="background: url(arrival-1.jpg);">
+                    <div class="content">
+                        <h3>sports shoes</h3>
+                        <p>upto <span>30%</span> off*</p>
+                        <div class="button">
+                            <a href="#" class="btn">shop now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box" style="background: url(arrival-2.jpg);">
+                    <div class="content">
+                        <h3>laptops</h3>
+                        <p>upto <span>15%</span> off*</p>
+                        <div class="button">
+                            <a href="#" class="btn">shop now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide box" style="background: url(arrival-3.jpg);">
+                    <div class="content">
+                        <h3> carry bags</h3>
+                        <p>upto <span>25%</span> off*</p>
+                        <div class="button">
+                            <a href="#" class="btn">shop now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+    </section>
+    <!-- section for contact-->
+    <section class="contact" id="contact">
+        <h1 class="heading"><span>contact</span> the owner<h1>
+            <div class="row">
+                <div class="image">
+                    <img src="images src/contact.svg" alt="">
+                </div>
+                <form action="">
+                    <h3>send your <span>feedback</span></h3>
+                    <div class="inputbox">
+                        <input type="text" placeholder="name">
+                        <input type="email" placeholder="email">
+                    </div>
+                    <div class="inputbox">
+                        <input type="number" placeholder="number">
+                        <input type="text" placeholder="subject">
+                    </div>
+                    <textarea placeholder="message" name="" id="" cols="30" rows="5"></textarea>
+                    <input type="submit" class="btn" value="send message">
+                </form>
+            </div>
+    </section>
+    <!--section for footer-->
+    <section class="footer" id="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#home"><i class="fas fa-arrow-right"></i>home</a>
+                <a href="#products"><i class="fas fa-arrow-right"></i>products</a>
+                <a href="#about"><i class="fas fa-arrow-right"></i>about</a>
+                <a href="#arrivals"><i class="fas fa-arrow-right"></i>arrivals</a>
+                <a href="#contact"><i class="fas fa-arrow-right"></i>contact</a>
+            </div>
+            <div class="box">
+                <h3>my social handles</h3>
+                <a href="https://twitter.com/singhrahul3112"><i class="fab fa-twitter"></i>  twitter</a>
+                <a href="https://www.instagram.com/r_a_h_u_l_s_i_n_g_h3112/"><i class="fab fa-instagram"></i>  instagram</a>
+                <a href="https://www.linkedin.com/in/rahul-singh-06b83917a/"><i class="fab fa-linkedin"></i>  linkedIn</a>
+                <a href="https://github.com/RahulSingh9131"><i class="fab fa-github"></i>  github</a>
+            </div>
+        </div>
+        <div class="credit"> © | <span>Rahul singh</span> | 2021</div>
+    </section>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>
